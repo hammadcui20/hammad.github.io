@@ -9,6 +9,11 @@ body
   margin-bottom: 0;
   
 }
+html,body {
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
 nav
 {
   position: fixed;
@@ -179,6 +184,7 @@ a:link {
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   color: #333;
   text-decoration: none;
+  text-align: center;
 }
 .wrapper .tooltip {
   position: absolute;
